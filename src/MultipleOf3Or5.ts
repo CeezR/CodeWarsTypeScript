@@ -1,4 +1,4 @@
-export class Challenge {
+export class MultipleOf3Or5 {
     static solution(number: number) {
         let numbers: number[] = [];
         for(let i = 0; i < number; i++) {
@@ -9,10 +9,4 @@ export class Challenge {
         const sum = numbers.length < 2 ? 0 : numbers.reduce((a, b) => a + b);
         return sum;
     }
-
-    static main() {
-        console.log(Challenge.solution(10));
-    }
 }
-
-Challenge.main();
