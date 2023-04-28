@@ -1,4 +1,4 @@
-import { Challenge } from './solution';
+import { Challenge } from '../src/solution';
 import { assert } from 'chai';
 
 function testSolution(input: number, expectedOutput: number) {
