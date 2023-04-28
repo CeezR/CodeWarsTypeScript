@@ -1,8 +1,8 @@
-import { Challenge } from '../src/solution';
+import solution  from '../src/MultipleOf3Or5';
 import { assert } from 'chai';
 
 function testSolution(input: number, expectedOutput: number) {
-    const actualOutput = Challenge.solution(input);
+    const actualOutput = solution(input);
     assert.strictEqual(actualOutput, expectedOutput, `Input: ${input}`);
 }
 
